@@ -1,0 +1,42 @@
+# Title:
+# cant units:3
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:0
+# location x:136
+# location y:147
+# name:Idle
+# Atomic TL:99:00:00:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:1
+# location x:508
+# location y:145
+# name:Busy
+# Atomic TL:00:00:02:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:2
+# location x:323
+# location y:341
+# name:Waiting
+# Atomic TL:00:00:00:00
+# Cant Ports:0
+# Cant Links:3
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:3
+# 		start unit Point:0
+# 		end unit Point:1
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:4
+# 		start unit Point:1
+# 		end unit Point:2
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:5
+# 		start unit Point:1
+# 		end unit Point:0
+# 		cant Expressions:0
+# 		cant Actions:0
+# Initial Name:
+# Vars cant:0

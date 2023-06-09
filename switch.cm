@@ -1,0 +1,64 @@
+[top]
+components : tt@TouchTone dialtone@Phone hangup@Phone pickup@Phone Dialer
+out : error connect dial_out
+in : key_in caller_pickup hangup_in callee_pickup
+Link : key_in key@tt
+Link : out@tt num_in@Dialer
+Link : out@dialtone tone@tt
+Link : out@dialtone tone@Dialer
+Link : caller_pickup in@dialtone
+Link : hangup_in in@hangup
+Link : out@hangup dc@Dialer
+Link : callee_pickup in@pickup
+Link : out@pickup callee_pickup@Dialer
+Link : error@Dialer error 
+Link : connect@Dialer connect
+Link : dial_out@Dialer dial_out
+
+[tt]
+processTime : 00:00:01:000 
+
+[dialtone]
+processTime : 00:00:01:000 
+
+[hangup]
+processTime : 00:00:01:000 
+
+[pickup]
+processTime : 00:00:01:000 
+
+[Dialer]
+components : dialing@Dialing DLlookup
+out : error connect dial_out
+in : num_in tone dc callee_pickup
+Link : tone tone@DLlookup
+Link : dc dc@DLlookup
+Link : callee_pickup callee_pickup@dialing
+Link : num_in num@DLlookup
+Link : out_to_dial@DLlookup num@dialing
+Link : error@DLlookup error
+Link : out@dialing dialing_in@DLlookup
+Link : out@dialing dial_out
+Link : connect@dialing connect
+
+[dialing]
+ringingTime : 00:01:00:000 
+
+[DLlookup]
+components : dl@DirLookup lc@LineCont
+out : out_to_dial error
+in : num tone dc dialing_in
+Link : num num@dl
+Link : tone tone@dl
+Link : dc dc@dl
+Link : dialing_in dialing_in@dl
+Link : out@lc line_in@dl
+Link : out_to_dial@dl out_to_dial
+Link : error_out@dl error
+Link : give_line@dl in@lc
+
+[dl]
+processTime : 00:00:02:000 
+
+[lc]
+processTime : 00:00:01:000 

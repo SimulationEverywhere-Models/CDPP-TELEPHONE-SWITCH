@@ -1,0 +1,11 @@
+[top]
+components : dial@Dialing
+out : out connect
+in : num callee_pickup
+Link : num num@dial
+Link : callee_pickup callee_pickup@dial
+Link : out@dial out
+Link : connect@dial connect
+
+[dial]
+ringingTime : 00:01:00:000

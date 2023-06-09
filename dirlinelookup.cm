@@ -1,0 +1,18 @@
+[top]
+components : dl@DirLookup lc@LineCont
+out : out_to_dial error
+in : num tone dc dialing_in line_in
+Link : num num@dl
+Link : tone tone@dl
+Link : dc dc@dl
+Link : dialing_in dialing_in@dl
+Link : out@lc line_in@dl
+Link : out_to_dial@dl out_to_dial
+Link : error_out@dl error
+Link : give_line@dl in@lc
+
+[dl]
+processTime : 00:00:02:000 
+
+[lc]
+processTime : 00:00:01:000 

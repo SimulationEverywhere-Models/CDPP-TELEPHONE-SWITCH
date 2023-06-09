@@ -1,0 +1,1 @@
+..\..\simu -mphone.cm -ephone.ev -lphone.log -ophone.out

@@ -1,0 +1,15 @@
+[top]
+components : dl@DirLookup
+out : out error give_line
+in : num tone dc dialing_in line_in
+Link : num num@dl
+Link : tone tone@dl
+Link : dc dc@dl
+Link : dialing_in dialing_in@dl
+Link : line_in line_in@dl
+Link : out_to_dial@dl out
+Link : error_out@dl error
+Link : give_line@dl give_line
+
+[dl]
+processTime : 00:00:05:000 

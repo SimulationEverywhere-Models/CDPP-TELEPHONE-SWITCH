@@ -1,0 +1,9 @@
+[top]
+components : dt@Phone
+out : out
+in : in
+Link : in in@dt
+Link : out@dt out
+
+[dt]
+processTime : 00:00:01:000 

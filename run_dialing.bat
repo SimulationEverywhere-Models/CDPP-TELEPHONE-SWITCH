@@ -1,0 +1,1 @@
+..\..\simu -mdialing.cm -edialing.ev -ldialing.log -odialing.out

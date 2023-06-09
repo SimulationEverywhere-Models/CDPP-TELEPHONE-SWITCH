@@ -1,0 +1,1 @@
+..\..\simu -mdirlookup.cm -edirlookup.ev -ldirlookup.log -odirlookup.out

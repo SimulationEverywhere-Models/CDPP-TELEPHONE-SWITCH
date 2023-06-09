@@ -1,0 +1,37 @@
+# Title:Phone
+# cant units:2
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:0
+# location x:140
+# location y:80
+# name:Idle
+# Atomic TL:00:00:00:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:1
+# location x:415
+# location y:90
+# name:Busy
+# Atomic TL:00:00:02:00
+# Cant Ports:2
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:3
+# Port ID:1
+# Port In/Out:In
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:5
+# Port ID:2
+# Port In/Out:Out
+# Port Type:Integer
+# Cant Links:1
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:2
+# 		start unit Point:0
+# 		end unit Point:1
+# 		cant Expressions:1
+# 		Expr Type:gui.model.Function
+# 		Expr:ReceiverPickedUp
+# 		Value :
+# 		cant Actions:0
+# Initial Name:
+# Vars cant:0

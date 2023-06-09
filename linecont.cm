@@ -1,0 +1,9 @@
+[top]
+components : lc@LineCont
+out : out
+in : in
+Link : in in@lc
+Link : out@lc out
+
+[lc]
+processTime : 00:00:02:000 

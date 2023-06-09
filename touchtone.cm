@@ -1,0 +1,10 @@
+[top]
+components : tt@TouchTone
+out : out
+in : in tone
+Link : in key@tt
+Link : out@tt out
+Link : tone tone@tt
+
+[tt]
+processTime : 00:00:02:000 

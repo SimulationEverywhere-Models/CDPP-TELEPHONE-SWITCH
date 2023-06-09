@@ -1,0 +1,80 @@
+# Title:
+# cant units:4
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:0
+# location x:125
+# location y:134
+# name:Idle
+# Atomic TL:99:00:00:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:1
+# location x:442
+# location y:134
+# name:Ringing
+# Atomic TL:00:01:00:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:2
+# location x:119
+# location y:324
+# name:Connect
+# Atomic TL:00:00:02:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:3
+# location x:454
+# location y:334
+# name:No_Pickup
+# Atomic TL:00:00:02:00
+# Cant Ports:4
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:9
+# Port ID:6
+# Port In/Out:In
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:10
+# Port ID:7
+# Port In/Out:In
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:11
+# Port ID:8
+# Port In/Out:Out
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:12
+# Port ID:9
+# Port In/Out:Out
+# Port Type:Integer
+# Cant Links:5
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:4
+# 		start unit Point:0
+# 		end unit Point:1
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:5
+# 		start unit Point:1
+# 		end unit Point:2
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:6
+# 		start unit Point:1
+# 		end unit Point:3
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:7
+# 		start unit Point:3
+# 		end unit Point:0
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:8
+# 		start unit Point:2
+# 		end unit Point:0
+# 		cant Expressions:0
+# 		cant Actions:0
+# Initial Name:
+# Vars cant:0

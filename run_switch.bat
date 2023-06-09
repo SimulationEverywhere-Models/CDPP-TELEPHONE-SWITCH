@@ -1,0 +1,1 @@
+..\..\simu -mswitch.cm -eswitch.ev -lswitch.log -oswitch.out
